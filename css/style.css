@@ -33,11 +33,32 @@ nav{
         float left;
         padding-right: 30px;
         display: block;
-        background-color: #dddddd;
+        background-color: #8ED4F0;
         width: auto;
         height: 60px;
         border-radius: 25px;
 
     
 }
+    a{
+    position: relative;
+    color: black;
+    padding-left: 25px;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    padding: 0 10px;
+}
 
+nav a::after{
+    content:"" ;
+    position: absolute;
+    background-color:#1B3F71;
+    left: 12.5%;
+    bottom: -5px;
+    width: 0px;
+    height:3px;
+    transition:0.3s;
+}
+a:hover::after{
+    width: 75%;
+}
