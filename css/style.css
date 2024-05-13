@@ -10,7 +10,9 @@
     left: 14px;
     top: 14px;
     }
-
+    body{
+        background-color:#070e17;
+    }
 
 #sutro{
     display:flex;
@@ -82,4 +84,63 @@ open-sans-uniquifier> {
     font-size: 20px;
     margin-bottom: -25px;
     margin-top: -8px;
+}
+.title2{
+    text-align: center;
+}
+.SPONSORS{
+    height: 100px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    @font-face {
+        src: url();
+    }
+}
+.container{
+    text-align: right;
+    padding-right: 30px;
+    padding-top: 60px;
+}
+
+.container1{
+    text-align: center;
+}
+.BT{
+
+}
+h1{
+    font-family:"Open Sans", sans-serif;
+    @font-face {
+        src: url();
+    }   
+    font-size: 60px; 
+    color: whitesmoke;
+}
+h2{
+    font-family:"Open Sans", sans-serif;
+    @font-face {
+        src: url();
+    }   
+    font-weight: 300;
+    color: whitesmoke;
+}
+h3{
+    font-family:"Open Sans", sans-serif;
+    @font-face {
+        src: url();
+    }   
+    padding-right: 60px; 
+    font-size: 20px; 
+}
+.container {
+    display: flex;
+    height: 500px;
+    background-image: url(../img/NorthernLights.jpg);
+    background-size: cover;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 25px;
+    margin-top: 10px;
+    text-align: right;
+    padding-right: 80px;
 }
