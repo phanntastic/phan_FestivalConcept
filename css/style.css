@@ -119,6 +119,7 @@ open-sans-uniquifier> {
 }
 .farewell{
     height: 830px;
+    border-radius: 5px;
 }
 h1{
     font-family:"Poetsen One", sans-serif;
@@ -260,6 +261,11 @@ h6{
     height: 350px;
     border-radius: 7.5px;
 }
+.snowmobile{
+    margin-left: 40px;
+    height: 350px;
+    border-radius: 7.5px;
+}
 .activity-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -285,8 +291,7 @@ h6{
 .center{
     display: flex;
     justify-content: center;
-    align-items: center;
-    text-align: center;
+
 }
 
 footer{
