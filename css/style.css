@@ -169,7 +169,7 @@ h6{
     @font-face {
         src: url();
     }   
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     font-size: 40px;
     text-align: center;
     color: #e0ffff
@@ -260,9 +260,29 @@ h6{
 .partners-container {
     display: flex;
     justify-content: center;
+    padding-top: -10px;
+}
+
+.border {
+    border: #e0ffff 1px solid;
+    padding: 5px;
+    border-radius: 30px;
+}
+
+
+.facebook, .linkedin, .instagram {
+    margin-left: 1rem;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 footer{
-   background-color:#fffafa;
+    margin-top: 150px;
+   /* background-color:#fffafa; */
    opacity: 80%;
 }
