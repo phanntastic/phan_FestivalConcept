@@ -95,7 +95,7 @@ open-sans-uniquifier> {
     text-align: center;
 }
 .SPONSORS{
-    height: 80px;
+    height: 250px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     @font-face {
         src: url();
@@ -113,15 +113,18 @@ open-sans-uniquifier> {
 .BT{
 
 }
+.festivallogo{
+    height: 400px;
+
+}
 h1{
     font-family:"Poetsen One", sans-serif;
     @font-face {
         src: url();
     }   
-    
     font-size: 100px; 
-    color: whitesmoke;
-    text-align: center;
+    color: #e0ffff
+  
 }
 h2{
     font-family:"Open Sans", sans-serif;
@@ -130,7 +133,7 @@ h2{
     }   
     font-weight: 300;
     color: whitesmoke;
-    padding-left: 40px;
+    padding-left: 20px;
 }
 h3{
     font-family:"Open Sans", sans-serif;
@@ -138,7 +141,9 @@ h3{
         src: url();
     }   
     padding-right: 60px; 
+    color: whitesmoke;
     font-size: 20px; 
+    padding-left: 15px;
 }
 h4{
     font-family:"Open Sans", sans-serif;
@@ -156,10 +161,26 @@ h5{
     @font-face {
         src: url();
     }   
-    color: #E0FFFF
+    color: #e0ffff
     
 }
-.containerhome {
+h6{
+    font-family:"Open Sans", sans-serif;
+    @font-face {
+        src: url();
+    }   
+    padding-bottom: 20px;
+    font-size: 40px;
+    text-align: center;
+    color: #e0ffff
+    
+}
+#logo {
+    align-content: center;
+}
+
+
+#containerhome {
     display: flex;
     height: 500px;
     background-image: url(../img/NorthernLights.jpg);
@@ -172,10 +193,24 @@ h5{
     text-align: right;
     padding-right: 80px;
 }
-.containerevent {
+#containerevent {
     display: flex;
     height: 650px;
-    background-image: url(../img/FestivalCamp.jpg);
+    background-image: url('../img/ArcticFestivalCamp.jpg');
+    background-size: cover;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 25px;
+    margin-top: 10px;
+    text-align: right;
+    padding-right: 80px; 
+    padding-bottom: 40px;
+}
+#containercontact {
+    display: flex;
+    height: 650px;
+    background-image: url('../img/ArcticContact.jpg');
     background-size: cover;
     align-content: center;
     justify-content: center;
@@ -185,9 +220,49 @@ h5{
     text-align: right;
     padding-right: 80px; 
 }
-footer{
-   background-color: ;
-   border-radius: 5px;
-    
+.text{
+    font-size: 70px;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 50px;
+    font-family: "Poetsen One", sans-serif;
+    @font-face {
+        src: url();
+    }   
+    color: #e0ffff
+}
+.setup{
+    height: 400px;
+    border-radius: 7.5px;
+}
 
+.about {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    padding-top: 3rem;
+}
+.photography{
+    margin-left: 40px;
+    height: 350px;
+    border-radius: 7.5px;
+}
+.climbing{
+    margin-left: 40px;
+    height: 350px;
+    border-radius: 7.5px;
+
+}
+.activity-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.partners-container {
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+   background-color:#fffafa;
+   opacity: 80%;
 }
