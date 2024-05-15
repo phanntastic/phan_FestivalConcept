@@ -117,6 +117,9 @@ open-sans-uniquifier> {
     height: 400px;
 
 }
+.farewell{
+    height: 830px;
+}
 h1{
     font-family:"Poetsen One", sans-serif;
     @font-face {
@@ -251,6 +254,11 @@ h6{
     height: 350px;
     border-radius: 7.5px;
 
+}
+.kayaking{
+    margin-left: 40px;
+    height: 350px;
+    border-radius: 7.5px;
 }
 .activity-container {
     display: grid;
